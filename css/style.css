@@ -10,6 +10,7 @@
 
 ul{
     list-style: none;
+    justify-content: space-around;
 }
 
 li{
@@ -18,13 +19,20 @@ li{
 }
 
 section{
-    padding: 1rem 20% 1rem;
+    padding: 1rem 15% 1rem;
 }
 
 /* Header */
 section.header-top-container{
     justify-content: space-between;
-    background-color: rgb(251, 255, 0);
+    background-color: #255EE9;
+    color: white;
+}
+
+button.join-button{
+    border-radius: 1rem;
+    padding: 0 1rem;
+    border: none;
 }
 
 section.header-bottom-container{
