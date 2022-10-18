@@ -92,8 +92,30 @@ button.header-bottom-button{
 
 /* Main */
 section.main-container{
-    height: 20rem;
-    background-color: rgb(0, 255, 149);
+    margin: 8rem 0rem;
+    justify-content: right;
+}
+
+
+
+section.main-container img{
+    height: 35rem;
+}
+
+div.ciao{
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+section.main-container h1{
+    font-size: 4.3rem;
+    line-height: 4.3rem;
+    margin-bottom: 3rem;
+}
+
+section.main-container p{
+    font-size: 1.6rem;
+    line-height: 2.5rem;
 }
 
 section.main-bottom-container{
