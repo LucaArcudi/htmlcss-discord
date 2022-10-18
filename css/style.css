@@ -22,12 +22,12 @@ section{
 }
 
 /* Header */
-section.menu{
+section.header-top-container{
     justify-content: space-between;
     background-color: rgb(251, 255, 0);
 }
 
-section.header-container{
+section.header-bottom-container{
     height: 20rem;
     background-color: rgb(255, 187, 0);
     padding: 1rem 25% 1rem;
@@ -40,14 +40,14 @@ section.main-container{
     background-color: rgb(0, 255, 149);
 }
 
-section.main-footer-container{
+section.main-bottom-container{
     background-color:  rgb(0, 255, 213);
     height: 40rem;
     text-align: center;
 }
 
 /* Footer */
-section.footer-container{
+section.footer-top-container{
     background-color: grey;
     height: 30rem;
 }
@@ -60,7 +60,7 @@ div.box{
     flex-basis: 30%;
 }
 
-section.footer-footer-container{
+section.footer-bottom-container{
     justify-content: space-between;
     background-color: cornflowerblue;
 }
